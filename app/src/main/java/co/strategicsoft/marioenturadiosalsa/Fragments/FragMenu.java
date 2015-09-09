@@ -83,7 +83,7 @@ public class FragMenu extends Fragment implements NewsListener, OnActionClickedL
                         try {
                             mMediaPlayer = new MediaPlayer();
                             mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
-                            mMediaPlayer.setDataSource("http://5.199.169.190:8221/;stream.mp");
+                            mMediaPlayer.setDataSource("http://5.199.169.190:8036/;stream.mp3");
                             mMediaPlayer.prepare();
                             mMediaPlayer.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
                                 @Override
