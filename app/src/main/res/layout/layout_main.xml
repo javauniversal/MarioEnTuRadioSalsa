@@ -9,7 +9,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/logo_mario_sin_fondo"
+        android:background="@drawable/logo_salsa"
         android:scaleType="centerCrop"
         android:layout_above="@+id/imageBottom"/>
 
